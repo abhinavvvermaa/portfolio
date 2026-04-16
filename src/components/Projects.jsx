@@ -91,7 +91,7 @@ export default function Projects() {
         <h2 className="text-4xl font-bold mb-12 text-center text-blue-400 fade-in">Featured Projects</h2>
         
         <div className="grid md:grid-cols-2 gap-6">
-          {projects.map((project, idx) => (
+          {[...projects].reverse().map((project, idx) => (
             <div
               key={project.id}
               className="project-card bg-gray-800 rounded-lg p-6 border border-gray-700 fade-in-slow hover:border-blue-400 hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300"
