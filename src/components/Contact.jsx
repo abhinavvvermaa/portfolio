@@ -74,8 +74,8 @@ export default function Contact() {
             </div>
             <div className="mt-8">
               <a
-                href="/AV_Resume.pdf"
-                download="AV_Resume.pdf"
+                href="/portfolio/AV.pdf"
+                download="AV.pdf"
                 className="inline-block rounded-full bg-blue-500 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-blue-400"
               >
                 Download Resume
