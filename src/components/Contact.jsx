@@ -68,14 +68,14 @@ export default function Contact() {
             <div className="mt-8">
               <h4 className="font-bold text-blue-400 mb-4">Connect</h4>
               <div className="flex gap-4 flex-wrap">
-                <a href="https://linkedin.com/in/abhinavvermaa" target="_blank" rel="noreferrer" className="text-2xl hover:text-blue-400 transition">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/abhinavvvermaa?utm_source=share_via&utm_content=profile&utm_medium=member_android" className="text-2xl hover:text-blue-400 transition">LinkedIn</a>
                 <a href="mailto:abhinavverma0205@gmail.com" className="text-2xl hover:text-blue-400 transition">Email</a>
               </div>
             </div>
             <div className="mt-8">
               <a
-                href="/portfolio/AV.pdf"
-                download="AV.pdf"
+                href="/portfolio/Abhinav_Verma_Resume.pdf"
+                download="Abhinav_Verma_Resume.pdf"
                 className="inline-block rounded-full bg-blue-500 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-blue-400"
               >
                 Download Resume

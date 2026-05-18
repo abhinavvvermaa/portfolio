@@ -6,14 +6,14 @@ export default function Projects() {
     id: 1,
     title: "Wireless Digital Notice Board",
     description: "Mobile-phone-controlled notice board using LoRa modules for large spaces like campuses and offices, enabling real-time message updates.",
-    tech: ["LoRa", "Arduino", "Mobile App", "Wireless Communication"],
+    tech: ["LoRa", "Arduino", "Mobile App", "Wireless Communication", "Bluetooth"],
     icon: "📡"
   },
   {
     id: 2,
     title: "LOS Optical Communication Model",
     description: "Line-of-sight optical data transmission system using Arduino, LED, and photodiode with parity and Hamming error correction for reliable communication.",
-    tech: ["Arduino", "Optical Communication", "LED", "Error Correction"],
+    tech: ["Arduino", "Optical Communication", "LED", "Error Correction", "IR Sensor"],
     icon: "💡"
   },
 
@@ -23,65 +23,65 @@ export default function Projects() {
     id: 3,
     title: "EMV Open Loop Card Reader",
     description: "Designed EMVCo L1/L2/L3 compliant card reader integrated with Android board for secure and seamless payment processing.",
-    tech: ["EMV", "PCB Design", "Android", "Payment Systems"],
+    tech: ["PCB Design", "Android", "Payment Systems", "Dual Host Architecture", "VGA Routing"],
     icon: "💳"
   },
   {
     id: 4,
-    title: "Card Dispenser System (NPCI)",
+    title: "Card Dispenser System (Airtel)",
     description: "Developed hardware architecture, schematics, and PCB layouts for Airtel Payment Bank card dispenser in collaboration with NPCI.",
-    tech: ["PCB Design", "Hardware Architecture", "NPCI", "Embedded Systems"],
+    tech: ["PCB Design", "Hardware Architecture", "OPTO Sensors", "Embedded Systems", "Stepper Motor Driver"],
     icon: "🏧"
   },
   {
     id: 5,
     title: "USB Hub Interface for DMRC",
     description: "Designed GPIO, UART, and HDMI based USB hub for Delhi Metro TVM system integration with peripheral devices.",
-    tech: ["UART", "GPIO", "HDMI", "Embedded Systems"],
+    tech: ["UART", "GPIOs", "HDMI", "Embedded Systems", "USB Type A"],
     icon: "🔌"
   },
   {
     id: 6,
     title: "DC UPS for Metro Systems",
     description: "Developed DC UPS system for CMRL providing reliable backup for TVM and AFC gates with UART-based control logic.",
-    tech: ["Power Electronics", "UPS", "UART", "Embedded Systems"],
+    tech: ["Power Electronics", "UPS", "UART Auto Shutdown", "Embedded Systems", "Lithium Cell Battery"],
     icon: "🔋"
   },
   {
     id: 7,
     title: "DC Booster Module Reverse Engineering",
     description: "Performed reverse engineering on DMRC AC exhaust fan PCB to optimize circuit performance and efficiency.",
-    tech: ["Reverse Engineering", "PCB", "Power Circuits"],
+    tech: ["Reverse Engineering", "PCB", "Power Circuits", "Transformer", "3 Phase AC"],
     icon: "⚙️"
   },
   {
     id: 8,
-    title: "Platform Screen Door Controller",
-    description: "Optimized PCB layouts and resolved design issues for DMRC platform screen door and flap controller systems.",
-    tech: ["PCB Optimization", "Control Systems", "Embedded Hardware"],
+    title: "Platform Screen Door System",
+    description: "Reverse Engineering and Optimized PCB layouts, resolved design issues for DMRC platform screen door and flap controller systems.",
+    tech: ["PCB Optimization", "Control Systems", "Embedded Hardware", "Testing"],
     icon: "🚪"
   },
   {
     id: 9,
-    title: "Radar Signal Processing Module",
-    description: "Designed and validated radar-based embedded hardware for air traffic control systems with high signal accuracy.",
-    tech: ["Radar", "Signal Processing", "PCB Design"],
-    icon: "📡"
-  },
-  {
-    id: 10,
-    title: "Gimbal Aligner Communication Interface",
-    description: "Developed optical wireless communication system with calibration workflows for stable gimbal alignment.",
-    tech: ["Optical Wireless", "Calibration", "Hardware Integration"],
+    title: "Gimbal Aligner",
+    description: "Developed a gimbal aligner system with motor control, LoRa, GPS, and barometric sensor integration for precise positioning and alignment.",
+    tech: ["Motor Driver", "RTK GPS", "Barometer", "LoRa", "LAN", "Hardware Integration"],
     icon: "🛰️"
   },
   {
+    id: 10,
+    title: "Radar Signal Processing System",
+    description: "Designed and validated radar-based embedded hardware for air traffic control systems with high signal accuracy.",
+    tech: ["Radar", "Signal Processing", "PCB Design", "RPi", "CPLD"],
+    icon: "📡"
+  },
+  /*{
     id: 11,
     title: "Board-Level Validation System",
     description: "Executed board-level testing, debugging, and validation for high-performance embedded systems.",
     tech: ["Testing", "Debugging", "Signal Integrity"],
     icon: "🧪"
-  }
+  }*/
 ]
 
   return (

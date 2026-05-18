@@ -4,7 +4,7 @@ export default function Skills() {
   const skillCategories = [
     {
       category: "Circuit Design Tools",
-      skills: ["Altium Designer", "KiCad", "SOLIDWORKS"]
+      skills: ["Altium Designer", "Orcade", "KiCad", "SOLIDWORKS"]
     },
     {
       category: "Hardware Design",
@@ -12,11 +12,11 @@ export default function Skills() {
     },
     {
       category: "Programming & Simulation",
-      skills: ["C", "C++", "Python", "Verilog", "LTspice"]
+      skills: ["C/C++", "RTL", "Python", "Verilog", "LTspice"]
     },
     {
       category: "Electronics Domains",
-      skills: ["Analog", "Digital", "RF/Mixed-Signal", "EMI/EMC"]
+      skills: ["Analog", "Digital", "FPGA Design", "RF/Mixed-Signal", "EMI/EMC"]
     },
     {
       category: "Protocols",

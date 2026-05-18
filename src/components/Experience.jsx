@@ -13,19 +13,14 @@ export default function Experience() {
       ],
       projects: [
         {
-          title: "Radar Signal Processing Module",
+          title: "Radar Signal Processing System",
           description:
             "Designed and validated embedded radar processing hardware for air traffic control with precise signal conditioning and EMI mitigation.",
         },
         {
-          title: "Gimbal Aligner Communication Interface",
+          title: "Gimbal Aligner",
           description:
-            "Developed hardware and calibration workflows for optical wireless gimbal alignment systems, ensuring robust link stability.",
-        },
-        {
-          title: "Board-Level Validation and System Testing",
-          description:
-            "Executed comprehensive board-level testing, system debugging, and performance tuning across power and signal domains.",
+            "Developed a gimbal aligner system with motor control, LoRa, GPS, and barometric sensor integration for precise positioning and alignment.",
         },
       ],
     },
@@ -153,12 +148,6 @@ export default function Experience() {
                   className="education-card bg-gray-800 p-6 rounded-lg border-l-4 border-cyan-500 relative"
                   style={{ animationDelay: `${0.5 + idx * 0.16}s` }}
                 >
-                  <div className="absolute top-2 right-2 flex gap-1">
-                    <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-                    <span className="text-xs text-cyan-400 font-semibold">
-                      Certified
-                    </span>
-                  </div>
                   <h4 className="text-lg font-bold text-blue-400">
                     {edu.degree}
                   </h4>
